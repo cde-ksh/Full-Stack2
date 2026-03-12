@@ -1,0 +1,55 @@
+:root
+{
+    --coll1: cyan;
+    --coll2: red;
+    --coll3: pink;
+    --coll4: yellow;
+    --coll5: black;
+    --txtcol: white;
+}
+body
+{
+    display: flex;
+    height: 700px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap:wrap;
+    text-align: center;
+    flex-shrink:1;
+}
+.box1
+{
+    background-color: var(--coll1,red);
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.box2
+{
+    background-color: var(--coll2,red);
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.box3
+{
+    background-color: var(--coll3,red);
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.box4
+{
+    background-color: var(--coll4,red);
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.box5
+{
+    background-color: var(--coll5,red);
+    color: var(--txtcol);
+    height: 300px;
+    width: 300px;
+}
