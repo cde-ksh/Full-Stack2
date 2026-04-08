@@ -1,0 +1,38 @@
+:root
+{
+    --coll: blue;
+    --coll1:white;
+}
+
+.page
+{
+    background-color: var(--coll);
+    margin-left: 200px;
+    margin-top:50px;
+    padding: 0px;
+    height: 700px;
+    width: 900px
+}
+.page h1
+{
+    margin-left: 10px;
+    font-weight:bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.content
+{
+    background-color: var(--coll1);
+    margin-left: 5px;
+    width: 870px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: var(--coll);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content h2
+{
+    margin-top: 10px;
+}
