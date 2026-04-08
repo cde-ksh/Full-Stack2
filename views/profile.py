@@ -8,7 +8,7 @@ col1, space, col2 = st.columns([4,6,4])
 
 with col1:
     st.header("Profile image: ")
-    st.image("/Users/kshiraj/Desktop/Interface/psy.webp")
+    st.image("https://archives.bulbagarden.net/media/upload/thumb/3/3f/0054Psyduck.png/500px-0054Psyduck.png")
 
 with col2:
     st.header("Contact info:")
